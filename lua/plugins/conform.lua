@@ -1,3 +1,8 @@
+if true then
+  return {}
+end
+-- We dont need this if {import = "lazyvim.plugins.extras.formatting.prettier" } added to lazy.lua
+-- This can be added again if we want to use prettierd.
 return {
   "stevearc/conform.nvim",
   opts = {
